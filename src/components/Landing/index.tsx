@@ -1,6 +1,8 @@
 "use client";
 
 import styles from './style.module.scss';
+import { Canvas } from '@react-three/fiber';
+import { useGLTF } from '@react-three/drei';
 
 export default function Landing() {
     return (
